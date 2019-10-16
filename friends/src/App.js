@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, Switch } from 'react-router-dom'; 
+import { Route, Switch } from 'react-router-dom'; 
 
 import Login from './components/Login'; 
 import Dashboard from './components/Dashboard'; 
@@ -7,7 +7,6 @@ import Nav from './components/Nav';
 import PrivateRoute from './components/PrivateRoute';
 
 
-import logo from './logo.svg';
 
 import './App.css';
 
