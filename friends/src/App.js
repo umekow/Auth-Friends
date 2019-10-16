@@ -12,7 +12,12 @@ function App() {
   return (
     <div className="App">
       <h1> Welcome to Friends!</h1> 
-      <Login/>
+      
+
+      <Switch>
+        <Route path="/login" component={Login}/>
+
+      </Switch>
     </div>
   );
 }
